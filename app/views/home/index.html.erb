@@ -1,0 +1,938 @@
+<!-- Preloader -->
+<div id="preloader">
+	<div id="loader">
+		<div class="dot"></div>
+		<div class="dot"></div>
+		<div class="dot"></div>
+		<div class="dot"></div>
+		<div class="dot"></div>
+		<div class="dot"></div>
+		<div class="dot"></div>
+		<div class="dot"></div>
+		<div class="lading"></div>
+	</div>
+</div><!-- /#preloader -->
+<!-- Preloader End-->
+
+
+
+<div data-spy="scroll" data-target="#navbar" data-offset="0">
+    <section id="main-slider" class="carousel">
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="container">
+                    <div class="carousel-content">
+                        <img src="/images/skklub_logo.png" style="max-width: 100%; width: auto; height:auto;"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <form onsubmit="submitFn(this, event);">
+        <div class="search-wrapper">
+                <div class="input-holder">
+                    <input type="text" class="search-input" placeholder="동아리 이름을 입력하세요!" />
+                    <button class="search-icon" onclick="searchToggle(this, event);"><span></span></button>
+                </div>
+                <span class="searchclose" onclick="searchToggle(this, event);"></span>
+                <div class="result-container">
+
+                </div>
+        </div>
+        </form>
+        
+        
+    </section>
+
+    <section id="services">
+        
+        <div class="container">
+            <div class="tab wow fadeInLeft">
+                <div class="row">
+                    <!--tab start-->
+                    <section class="tab wow fadeInLeft">
+                        <header class="panel-heading tab-bg-dark-navy-blue">
+                                <ul class="nav nav-tabs nav-justified ">
+                                    <li class="active">
+                                      <a class="maintab" data-toggle="tab" href="#jungdong">
+                                        중앙동아리
+                                      </a>
+                                    </li>
+                                    <li>
+                                      <a class="maintab" data-toggle="tab" href="#study">
+                                        학회
+                                      </a>
+                                    </li>
+                                    <li class="">
+                                      <a class="maintab" data-toggle="tab" href="#inst">
+                                        학교기관/단체
+                                      </a>
+                                    </li>
+                                    <li class="">
+                                      <a class="maintab" data-toggle="tab" href="#inst">
+                                        독립소모임
+                                      </a>
+                                    </li>
+                                </ul>
+                        </header>
+            
+                        <div class="panel-body">
+                          <div class="tab-content tasi-tab">
+                            <div id="jungdong" class="tab-pane fade in active">
+                               <ul class="portfolio-filter">
+                                       <!-- 이후 data-filter를 사용하여 동아리 분류하면 될 듯 합니다-->
+                                    <li><a class="btn btn-search active" href="#" data-filter="*">전체</a></li>
+                                    <li><a class="btn btn-search" href="#" data-filter=".yeon">연행예술</a></li>
+                                    <li><a class="btn btn-search" href="#" data-filter=".pyeong">평면예술</a></li>
+                                    <li><a class="btn btn-search" href="#" data-filter=".insa">인문사회</a></li>
+                                    <li><a class="btn btn-search" href="#" data-filter=".hobby">취미교양</a></li>
+                                    <li><a class="btn btn-search" href="#" data-filter=".religion">종교</a></a></li>
+                                    <li><a class="btn btn-search" href="#" data-filter=".scoiety">사회</a></li>
+                                    <li><a class="btn btn-search" href="#" data-filter=".scholar">학술</a></li>
+                                    <li><a class="btn btn-search" href="#" data-filter=".lan">언어</a></li>
+                                    <li><a class="btn btn-search" href="#" data-filter=".sports">건강체육</a></li>
+                                </ul><!--/#portfolio-filter-->
+                               
+                                <ul class="portfolio-items col-4">
+                                  
+                                    <li class="portfolio-item lan">
+                                        <div class="button likelion_open">
+                                            <div class="portfolio-image htlfndr-category-box" onclick="void(0)">
+                                                <img src="/images/clubimage/ns.jpg" alt="">
+                                                <div class="overlay">
+                                                    <div class="category-description">
+                                                        <h2 class="subcategory-name">농성회</h2>    
+                                                    </div>
+                                                </div>
+                                            </div>        
+                                        </div>
+                                    </li><!--/.portfolio-item-->
+                                    
+                                    <li class="portfolio-item yeon">
+                                        <div class="button likelion_open">
+                                            <div class="portfolio-image htlfndr-category-box" onclick="void(0)">
+                                                <img src="/images/clubimage/skkuo.jpg" alt="">
+                                                <div class="overlay">
+                                                    <div class="category-description">
+                                                        <h2 class="subcategory-name">성균오케스트라</h2>    
+                                                    </div>
+                                                </div>
+                                            </div>        
+                                        </div>
+                                    </li><!--/.portfolio-item-->
+                                    
+                                    <li class="portfolio-item sports">
+                                        <div class="button likelion_open">
+                                            <div class="portfolio-image htlfndr-category-box" onclick="void(0)">
+                                                <img src="/images/clubimage/default.png" alt="">
+                                                <div class="overlay">
+                                                    <div class="category-description">
+                                                        <h2 class="subcategory-name">스웨이</h2>    
+                                                    </div>
+                                                </div>
+                                            </div>        
+                                        </div>
+                                    </li><!--/.portfolio-item-->
+                                    
+                                    <li class="portfolio-item insa">
+                                        <div class="button likelion_open">
+                                            <div class="portfolio-image htlfndr-category-box" onclick="void(0)">
+                                                <img src="/images/clubimage/motdi.jpg" alt="">
+                                                <div class="overlay">
+                                                    <div class="category-description">
+                                                        <h2 class="subcategory-name">못갖춘마디</h2>    
+                                                    </div>
+                                                </div>
+                                            </div>        
+                                        </div>
+                                    </li><!--/.portfolio-item-->
+                                   
+                                   <!-- 이름뜨는거 + 모달 다 구현한 것!! 이거 참고해서 다른거 수정-->
+                                    <li class="portfolio-item insa">
+                                        <div class="button likelion_open">
+                                            <div class="portfolio-image htlfndr-category-box" onclick="void(0)">
+                                                <img src="/images/clubimage/likelion.png" alt="">
+                                                <div class="overlay">
+                                                        <div class="category-description">
+                                                            <h2 class="subcategory-name">멋쟁이사자처럼</h2>    
+                                                        </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                    </li><!--/.portfolio-item-->
+                                    <li class="portfolio-item pyeong">
+                                        <div class="button likelion_open">
+                                            <div class="portfolio-image htlfndr-category-box" onclick="void(0)">
+                                                <img src="/images/clubimage/default.png" alt="">
+                                                <div class="overlay">
+                                                        <div class="category-description">
+                                                            <h2 class="subcategory-name">성미회</h2></h2>    
+                                                        </div>
+                                                </div> 
+                                            </div>
+                                        </div>  
+                                    </li><!--/.portfolio-item-->
+                                    <li class="portfolio-item yeon">
+                                        <div class="button likelion_open">
+                                            <div class="portfolio-image htlfndr-category-box" onclick="void(0)">
+                                                <img src="/images/clubimage/teamsunbi.jpg" alt="">
+                                                <div class="overlay">
+                                                        <div class="category-description">
+                                                            <h2 class="subcategory-name">팀선비</h2>    
+                                                        </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                    </li><!--/.portfolio-item-->
+                                    <li class="portfolio-item lan">
+                                        <div class="button likelion_open">
+                                            <div class="portfolio-image htlfndr-category-box" onclick="void(0)">
+                                                <img src="/images/clubimage/skkip.png" alt="">
+                                                <div class="overlay">
+                                                        <div class="category-description">
+                                                            <h2 class="subcategory-name">SKKIP</h2>    
+                                                        </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                    </li><!--/.portfolio-item-->
+                                    
+                                    <li class="portfolio-item lan">
+                                        <div class="button likelion_open">
+                                            <div class="portfolio-image htlfndr-category-box" onclick="void(0)">
+                                                <img src="/images/clubimage/skkip.png" alt="">
+                                                <div class="overlay">
+                                                        <div class="category-description">
+                                                            <h2 class="subcategory-name">SKKIP</h2>    
+                                                        </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                    </li><!--/.portfolio-item-->
+                                    
+                                    <li class="portfolio-item sports">
+                                        <div class="button likelion_open">
+                                            <div class="portfolio-image htlfndr-category-box" onclick="void(0)">
+                                                <img src="/images/clubimage/default.png" alt="">
+                                                <div class="overlay">
+                                                    <div class="category-description">
+                                                        <h2 class="subcategory-name">스웨이</h2>    
+                                                    </div>
+                                                </div>
+                                            </div>        
+                                        </div>
+                                    </li><!--/.portfolio-item-->
+                                    
+                                    <li class="portfolio-item insa">
+                                        <div class="button likelion_open">
+                                            <div class="portfolio-image htlfndr-category-box" onclick="void(0)">
+                                                <img src="/images/clubimage/motdi.jpg" alt="">
+                                                <div class="overlay">
+                                                    <div class="category-description">
+                                                        <h2 class="subcategory-name">못갖춘마디</h2>    
+                                                    </div>
+                                                </div>
+                                            </div>        
+                                        </div>
+                                    </li><!--/.portfolio-item-->
+                                    
+                                    <li class="portfolio-item yeon">
+                                        <div class="button likelion_open">
+                                            <div class="portfolio-image htlfndr-category-box" onclick="void(0)">
+                                                <img src="/images/clubimage/skkuo.jpg" alt="">
+                                                <div class="overlay">
+                                                    <div class="category-description">
+                                                        <h2 class="subcategory-name">성균오케스트라</h2>    
+                                                    </div>
+                                                </div>
+                                            </div>        
+                                        </div>
+                                    </li><!--/.portfolio-item-->
+                                    
+                                </ul>   
+                                   
+                            </div>
+                            
+                            <div id="study" class="tab-pane fade">
+                               <ul class="portfolio-filter">
+                                       <!-- 이후 data-filter를 사용하여 동아리 분류하면 될 듯 합니다-->
+                                    <li><a class="btn btn-search active" href="#" data-filter="*">전체</a></li>
+                                    <li><a class="btn btn-search" href="#" data-filter=".yu">유학동양학부</a></li>
+                                    <li><a class="btn btn-search" href="#" data-filter=".mun">문과대학</a></li>
+                                    <li><a class="btn btn-search" href="#" data-filter=".law">법과대학</a></li>
+                                    <li><a class="btn btn-search" href="#" data-filter=".sa">사회과학부</a></li>
+                                    <li><a class="btn btn-search" href="#" data-filter=".eco">경제학부</a></li>
+                                    <li><a class="btn btn-search" href="#" data-filter=".busi">경영학부</a></li>
+                                    <li><a class="btn btn-search" href="#" data-filter=".life">생활과학부</a></li>
+                                    <li><a class="btn btn-search" href="#" data-filter=".edu">사범대학</a></li>                    
+                                    <li><a class="btn btn-search" href="#" data-filter=".art">예술대학</a></li>
+                                    <li><a class="btn btn-search" href="#" data-filter=".hakbu">학부대학</a></li>
+                                </ul><!--/#portfolio-filter-->
+                                <ul class="portfolio-items col-4">
+                                    <li class="portfolio-item yu" data-category="html">
+                                        <div class="item-inner">
+                                            <div class="portfolio-image">
+                                                <img src="/images/portfolio/thumb/item1.jpg" alt="">
+                                                <div class="overlay">
+                                                    <a class="preview btn btn-danger" title="멋쟁이사자처럼" href="images/portfolio/full/item1.jpg"><i class="icon-eye-open"></i></a>             
+                                                </div>
+                                            </div>
+                                            <h5>멋쟁이 사자처럼</h5>
+                                        </div>
+                                    </li><!--/.portfolio-item-->    
+                                   <li class="portfolio-item eco" data-category="html">
+                                        <div class="item-inner">
+                                            <div class="portfolio-image">
+                                                <img src="/images/portfolio/thumb/item1.jpg" alt="">
+                                                <div class="overlay">
+                                                    <a class="preview btn btn-danger" title="멋쟁이사자처럼" href="images/portfolio/full/item1.jpg"><i class="icon-eye-open"></i></a>             
+                                                </div>
+                                            </div>
+                                            <h5>멋쟁이 호랑이처럼</h5>
+                                        </div>
+                                    </li><!--/.portfolio-item-->
+                                   <li class="portfolio-item eco" data-category="html">
+                                        <div class="item-inner">
+                                            <div class="portfolio-image">
+                                                <img src="/images/portfolio/thumb/item1.jpg" alt="">
+                                                <div class="overlay">
+                                                    <a class="preview btn btn-danger" title="멋쟁이사자처럼" href="images/portfolio/full/item1.jpg"><i class="icon-eye-open"></i></a>             
+                                                </div>
+                                            </div>
+                                            <h5>멋쟁이</h5>
+                                        </div>
+                                    </li><!--/.portfolio-item-->
+                                   <li class="portfolio-item busi" data-category="html">
+                                        <div class="item-inner">
+                                            <div class="portfolio-image">
+                                                <img src="/images/portfolio/thumb/item1.jpg" alt="">
+                                                <div class="overlay">
+                                                    <a class="preview btn btn-danger" title="멋쟁이사자처럼" href="images/portfolio/full/item1.jpg"><i class="icon-eye-open"></i></a>             
+                                                </div>
+                                            </div>
+                                            <h5>히히</h5>
+                                        </div>
+                                    </li><!--/.portfolio-item-->    
+                            </div>
+                            <div id="inst" class="tab-pane fade">
+                             <ul class="portfolio-filter">
+                                       <!-- 이후 data-filter를 사용하여 동아리 분류하면 될 듯 합니다-->
+                                    <li><a class="btn btn-search active" href="#" data-filter="*">전체</a></li>
+                                    <li><a class="btn btn-search" href="#" data-filter=".media3">학내언론</a></li>
+                                    <li><a class="btn btn-search" href="#" data-filter=".promo">홍보・제안대사</a></li>
+                                    <li><a class="btn btn-search" href="#" data-filter=".exchange">교환학생</a></a></li>
+                                    <li><a class="btn btn-search" href="#" data-filter=".etc">기타</a></li>
+                                </ul><!--/#portfolio-filter-->
+                                <ul class="portfolio-items col-4">
+                                    <li class="portfolio-item media3" data-category="html">
+                                        <div class="item-inner">
+                                            <div class="portfolio-image">
+                                                <img src="/images/portfolio/thumb/item1.jpg" alt="">
+                                                <div class="overlay">
+                                                    <a class="preview btn btn-danger" title="멋쟁이사자처럼" href="images/portfolio/full/item1.jpg"><i class="icon-eye-open"></i></a>             
+                                                </div>
+                                            </div>
+                                            <h5>성대방송국</h5>
+                                        </div>
+                                    </li><!--/.portfolio-item-->
+                                    <li class="portfolio-item media3" data-category="html">
+                                        <div class="item-inner">
+                                            <div class="portfolio-image">
+                                                <img src="/images/portfolio/thumb/item5.jpg" alt="">
+                                                <div class="overlay">
+                                                    <a class="preview btn btn-danger" title="멋쟁이사자처럼" href="images/portfolio/full/item1.jpg"><i class="icon-eye-open"></i></a>             
+                                                </div>
+                                            </div>
+                                            <h5>성대신문</h5>
+                                        </div>
+                                    </li><!--/.portfolio-item-->
+                                    <li class="portfolio-item media3" data-category="html">
+                                        <div class="item-inner">
+                                            <div class="portfolio-image">
+                                                <img src="/images/portfolio/thumb/item7.jpg" alt="">
+                                                <div class="overlay">
+                                                    <a class="preview btn btn-danger" title="멋쟁이사자처럼" href="images/portfolio/full/item1.jpg"><i class="icon-eye-open"></i></a>             
+                                                </div>
+                                            </div>
+                                            <h5>성균타임즈</h5>
+                                        </div>
+                                    </li><!--/.portfolio-item-->
+                                    <li class="portfolio-item promo" data-category="html">
+                                        <div class="item-inner">
+                                            <div class="portfolio-image">
+                                                <img src="/images/portfolio/thumb/item4.jpg" alt="">
+                                                <div class="overlay">
+                                                    <a class="preview btn btn-danger" title="멋쟁이사자처럼" href="images/portfolio/full/item1.jpg"><i class="icon-eye-open"></i></a>             
+                                                </div>
+                                            </div>
+                                            <h5>알리미(학생명예홍보대사)</h5>
+                                        </div>
+                                    </li><!--/.portfolio-item-->
+                                    <li class="portfolio-item promo" data-category="html">
+                                        <div class="item-inner">
+                                            <div class="portfolio-image">
+                                                <img src="/images/portfolio/thumb/item3.jpg" alt="">
+                                                <div class="overlay">
+                                                    <a class="preview btn btn-danger" title="멋쟁이사자처럼" href="images/portfolio/full/item1.jpg"><i class="icon-eye-open"></i></a>             
+                                                </div>
+                                            </div>
+                                            <h5>S-angel(동문홍보)</h5>
+                                        </div>
+                                    </li><!--/.portfolio-item-->
+                            </div>
+                          </div>
+                        </div>
+                     </section>
+                     <!--tab end-->
+                </div>
+            </div>
+        </div>
+    </section>
+                
+    
+    
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 info">
+                    <a href="https://www.facebook.com/likelionskku/?fref=ts" class="gofacebook">멋쟁이사자처럼x성균관대학교</a>
+                    <img src="/images/transp.png"/>
+                </div>
+                <div class="col-sm-6 foot_contact">
+                    contact
+                    <a href="https://www.facebook.com/likelionskku/?fref=ts"><img src="/images/facebook.png" style="margin-left:5px;"/></a>
+                    <img src="/images/mail.png" style="margin-left:10px;"/>
+                
+                    <!--<a href="#" class="back-to-top">Scroll To Top</a> -->
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </footer><!--/#footer-->
+ 
+    
+<!--test-->
+    <div id="likelion_modal" class="modal fade 멋쟁이사자처럼 멋사 멋쟁이사자 likelion" role="dialog">
+         <div class="modal-dialog">
+    
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>    
+                </div>
+                 
+                <div class="body-dialog-top">
+                    <br>
+                    <span class="aui-avatar aui-avatar-project aui-avatar-xxxlarge">
+                        <span class="aui-avatar-inner">
+                          <img src="/images/clubimage/likelion.png" />
+                        </span>
+                    </span>
+                  <h2 class="animated pulse nameinmodal">멋쟁이사자처럼</h2>
+                  <span class="aui-lozenge aui-lozenge-error">웹프로그래밍</span>
+                  <div class="one_sentence">"컴퓨터를 전혀 모르는 대학생들이 내가 만들고 싶은 IT서비스를 직접 배워 직접 런칭한다" </div>
+        
+                </div>
+        <!-- 여기부터 taps -->
+                <div class="body-dialog-mid"> 
+                    <main class="o-main">
+                      <div class="o-container">
+                        <div class="o-section">
+                          <div id="tabs" class="c-tabs no-js">
+                            <div class="c-tabs-nav">
+                              <a href="#" class="c-tabs-nav__link is-active">
+                                <span>ABOUT</span>
+                              </a>
+                              <a href="#" class="c-tabs-nav__link">
+                                <span>ACTIVITY INFO</span>
+                              </a>
+                              <a href="#" class="c-tabs-nav__link">
+                                <span>RECRUITING</span>
+                              </a>
+                              <a href="#" class="c-tabs-nav__link">
+                                <span>CONTACT</span>
+                              </a>
+                            </div>
+                            
+                            
+                            
+                            
+        <!--About Us--> 
+                            <div class="c-tab is-active">
+                                <div class="c-tab__content">
+                                
+                                    <div class="introduce">
+                                      <h2><span>소개글</span></h2>
+                                      <p>   비전공자들에게 프로그래밍을 알려주면 멋진 일이 일어나지 않을까? 멋쟁이사자처럼은 이 생각을 기초로 설립된 웹프로그래밍 동아리입니다. 프로그래밍 중에서는 비교적 배우기 수월하다는 웹프로그래밍을 배우며, Ruby라는 프로그래밍 언어와 Rails 라는 웹프레임워크를 사용합니다.<br><br>
+멋쟁이사자처럼의 존재 이유는 단순히 프로그래밍을 알려주는데 있지 않습니다. 멋쟁이사자처럼의 목표는 배워서 써먹는 것입니다. 자기소개서를 작성하게 해주는 자소설닷컴이나 대학생 간 재능과외를 연결시켜주는 탈잉 등은 멋쟁이사자처럼에서 태어난 서비스들입니다. 이처럼 평소에 가지고 있던 아이디어들을 웹을 통해 표현할 수 있도록 해주는 것이 멋쟁이사자처럼의 제 1 목표입니다.<br><br>
+
+  세간의 프로그래밍 교육 열풍에도 불구하고, 성균관대학교는 인문계 학생들이 프로그래밍을 자연스럽게 접하기 어려운 환경적 제약이 존재합니다. 인문사회과학 캠퍼스와 자연과학캠퍼스가 나뉘어져있기 때문입니다. 하지만 멋쟁이사자처럼은 비전공자들끼리 모여서 프로그래밍을 배우고, 실제 서비스를 만들어내게 해주는 곳입니다. 멋쟁이사자처럼은 이러한 환경적 제약을 극복할 수 있는 인문사회과학 캠퍼스 내의 유일한 프로그래밍 동아리입니다.<br><br>
+
+  동아리 운영 방식은 신입부원들을 뽑은 후 그들의 관심분야와 전공을 기반으로 팀빌딩을 합니다. 팀의 인원은 최대 5명이며, 이 팀은 약 1년을 함께 배우고 프로젝트를 진행합니다. 각 팀은 정기세션 외에 매주 2번 이상 만나서 배운 내용 복습 및 서비스 기획을 진행합니다. 매주 목요일에 있는 정기세션 때는 팀 별 프로젝트 진행사항을 발표해 피드백을 받습니다. 그 후 운영진(기존 기수) 측에서 준비한 문제를 같이 풀거나, 심화 강의를 진행합니다.<br><br>
+                                      
+                                      
+                                    </div>
+                                    <div class="introduce">
+                                        <h2><span>개요</span></h2>
+                                        <p>창립년도: 2015년<br>
+                                            역대 구성원: 30명<br>
+                                            활동 구성원: 23명<br>
+                                            위치: 학생회관 207호</p>
+                                    </div>
+                                
+                                </div>
+                            </div>
+                            
+                            
+                            
+                            
+                            <div class="c-tab">
+                                <div class="c-tab__content">
+                        
+                                    <!--timeline  start  -->
+                                    <div class="activity">
+                                        <h2><span>연간 일정</span></h2>
+                                        <p>
+                                         첫 학기에는 웹개발 언어로 루비 온 레일즈를 배우면서 단기프로젝트를 진행하며, 동시에 해커톤을 준비합니다.
+                                         방학에는 집중적으로 아이디어톤 및 해커톤을 진행하며, 그 외 기타 외부 교육단체 및 학교와 교류, 외주작업 진행, 심화학습 등이 가능합니다.
+                                        </p>
+                                    </div> 
+                                
+                                    <section class="cd-horizontal-timeline">
+                                    	<div class="timeline">
+                                    		<div class="events-wrapper">
+                                    			<div class="events">
+                                    				<ol>
+                                    					<li><a href="#0" data-date="03/01/2016" class="selected">3월</a></li>
+                                    					<li><a href="#0" data-date="04/01/2016">4월</a></li>
+                                    					<li><a href="#0" data-date="05/01/2016">5월</a></li>
+                                    					<li><a href="#0" data-date="06/01/2016">6월</a></li>
+                                    					<li><a href="#0" data-date="07/01/2016">여름방학</a></li>
+                                    					<!--<li><a href="#0" data-date="08/01/2016">8월</a></li>-->
+                                    					
+                                    					<li><a href="#0" data-date="09/01/2016">9월</a></li>
+                                    					<li><a href="#0" data-date="10/01/2016">10월</a></li>
+                                    					<li><a href="#0" data-date="11/01/2016">11월</a></li>
+                                    					<li><a href="#0" data-date="12/01/2016">12월</a></li>
+                                    					<li><a href="#0" data-date="13/01/2016">겨울방학</a></li>
+                                    					<!--<li><a href="#0" data-date="14/01/2016">02월</a></li>-->
+                                    				</ol>
+                                    
+                                    				<span class="filling-line" aria-hidden="true"></span>
+                                    			</div> <!-- .events -->
+                                    		</div> <!-- .events-wrapper -->
+                                    			
+                                    		<ul class="cd-timeline-navigation">
+                                    			<li><a href="#0" class="prev inactive">Prev</a></li>
+                                    			<li><a href="#0" class="next">Next</a></li>
+                                    		</ul> <!-- .cd-timeline-navigation -->
+                                    	</div> <!-- .timeline -->
+                                    
+                                    	<div class="events-content">
+                                    		<ol>
+                                    			<li class="selected" data-date="03/01/2016">
+                                    				<h2>3월</h2>
+                                    				<em>신입모집 및 전체 OT</em>
+                                    				<p>	
+                                    					대성로에 포스터를 붙이고 현수막에 사이트 이름을 개시함. 서류와 면접을 통해 학생들을 선발하였음.
+                                    					서울 시립대학교에서 멋쟁이사자처럼 중앙운영진이 진행하는 OT에 참석함.
+                                                     </p>
+                                    			</li>
+                                    			
+                                    			<li data-date="04/01/2016">
+                                    				<h2>4월</h2>
+                                    				<em>팀 빌딩 및 총MT</em>
+                                    				<p>
+                                    				    신입기수들을 5개의 팀으로 나누어 1년간 이 팀으로 진행될 것임을 공지함.
+                                    				    신입기수들과 함께 구파발로 1박 2일 엠티를 감.
+                                    				    프로그래밍 관련 퀴즈를 내며 프로그래밍에 관한 지식을 늘려감.
+                                    				</p>
+                                    			</li>
+                                    			
+                                    			<li data-date="05/01/2016">
+                                    				<h2>5월</h2>
+                                    				<em>한강 소풍과 주점 및 5.26 프로젝트</em>
+                                    				<p>	
+                                        				중간고사를 친 후 한강으로 소풍을 가 친목을 다짐.
+                                        				대동제에 멋쟁이사자처럼의 이름을 걸고 주점을 하였음.
+                                        				3~4월간 배운 내용을 바탕으로 5.26을 발표일로 하는 단기프로젝트를 진행함.
+                                        				팀별 프로젝트와는 별개로 새로 팀을 구성하였으며, 단기프로젝트 기간동안 기존의 배운 내용들을 사용해보는 기회가 되었음.
+                                    				</p>
+                                    			</li>
+                                    			
+                                    			<li data-date="06/01/2016">
+                                    				<h2>6월</h2>
+                                    				<em>아이디어톤 준비 및 미니 해커톤</em>
+                                    				<p>	
+                                        			     학기가 끝난 후 1박2일로 미니 해커톤을 진행할 예정.
+                                        			     1박 2일간 향후 만들 서비스의 프로토타입을 제작해 본 후 팀 별 피드백을 받을 예정.	
+                                        			</p>
+                                    			</li>
+                                    			
+                                    			<li data-date="07/01/2016">
+                                    				<h2>여름방학(7월&8월)</h2>
+                                    				<em>아이디어톤 준비 및 미니 해커톤</em>
+                                    				<p>	
+                                        			     학기가 끝난 후 1박2일로 미니 해커톤을 진행할 예정.
+                                        			     1박 2일간 향후 만들 서비스의 프로토타입을 제작해 본 후 팀 별 피드백을 받을 예정.	
+                                        			</p>
+                                    			</li>
+                                                
+                                    
+                                                <li data-date="09/01/2016">
+                                    				<h2>9월</h2>
+                                    				<em>신입부원 모집 및 프로젝트 진행</em>
+                                    				<p>	
+                                        			     신입부원 모집 및 기존 해커톤 때 나온 프로젝트를 팀 별로 계속 진행할 예정.     
+                                        			</p>
+                                    			</li>
+                                                
+                                                <li data-date="10/01/2016">
+                                    				<h2>10월</h2>
+                                    				<em>총MT</em>
+                                    				<p>	
+                                        			    신입부원과 기존 기수들 모두 엠티를 가서 새로운 팀 빌딩 및 섞임을 가질 예정.     
+                                        			</p>
+                                    			</li>
+                                    			
+                                    			<li data-date="11/01/2016">
+                                    				<h2>11월</h2>
+                                    				<em>단기프로젝트 진행 및 기존 프로젝트 피드백</em>
+                                    				<p>
+                                    				     신입부원들을 대상으로는 단기 프로젝트를 진행하고 기존 부원들은 기존부터 하고있던 프로젝트에 대해 발표하고 피드백을 받을 예정.	
+                                        			</p>
+                                    			</li>
+                                    			
+                                    			<li data-date="12/01/2016">
+                                    				<h2>12월</h2>
+                                    				<em>미니 해커톤</em>
+                                    				<p>
+                                    				    학교 내 해커톤을 진행해 신입부원들이 새로운 프로젝트들을 만들 수 있는 시간을 제공할 예정.
+                                    				    기존 부원들은 이 프로젝트들을 점검해 주고, 코칭을 해주는 시간을 가질 예정.
+                                    				</p>
+                                    			</li>
+                                    			
+                                    			<li data-date="13/01/2016">
+                                    				<h2>겨울방학(1월&2월)</h2>
+                                    				<em>신입기수 모집 준비 및 북부권 대학 연합 해커톤</em>
+                                    				<p>
+                                    				    북부권 대학과 같이 1박 2일간의 해커톤을 한 후 대학 간 교류의 시간을 가질 예정.
+                                    				</p>
+                                    			</li>
+                                    	
+                                    		</ol>
+                                    	</div> <!-- .events-content -->
+                                </section>
+                                          
+                                  
+                                <div class="activity">
+                                    <h2><span>모임시간</span></h2>
+                                </div>  
+
+        <!--요일-->
+                                <div class="day_activity">
+                                     <div class="when">
+                                       <ul>
+                                          <li class="off"><p>MON</p></li>
+                                          <li class="off"><p>TUE</p></li>
+                                          <li class="on"><p>WED</p></li>
+                                          <li class="on"><p>THU</p></li>
+                                          <li class="off"><p>FRI</p></li>
+                                          <li class="off"><p>SAT</p></li>
+                                          <li class="on"><p>SUN</p></li>
+                                    </div>
+                                </div>
+                                
+                                <div class="day_activity">
+                                     <div class="what">
+                                       <ul>
+                                          <li></li>
+                                          <li></li>
+                                          <li><p>6~9시<br>단기프로젝트<br>@국제관</p></li>
+                                          <li><p>6시<br>정기세션<br>@경영관</p></li>
+                                          <li></li>
+                                          <li></li>
+                                          <li><p>3~6시<br>팀세션<br>@국제관</p></li>
+                                    </div>
+                                </div>
+                                
+             <!--활동사진-->
+             
+                                </div> <!-- c-tab end-->
+                            </div>    <!-- c-tab__content end-->
+                  
+                   
+            <!--리크루팅-->
+                            <div class="c-tab">
+                              <div class="c-tab__content">
+                            			<div class="recruit_container">
+                            				<div class="row">
+                            				  <!-- first count item -->
+                            					<div class="text-center recruit_box_1 col-md-4 animated fadeInLeft">
+                            						  <img class="recruit_image" src="/images/Recruiting_tab/Calendar.png" >
+                            							<p>1년</p>
+                            							<h3>모집시기(:단위)</h3>
+                            					</div>
+                            					<!-- end first count item -->
+                            				
+                            					<!-- second count item -->
+                            					<div class="recruit_box_2 text-center col-md-4 animated fadeInRight">
+                            						 <img class="recruit_image" src="/images/Recruiting_tab/Group.png">
+                            						 <br><p>25명</p>
+                            							<h3>모집인원</h3>
+                            					 </div>
+                            					<!-- end second count item -->
+                            				</div>
+                            				<div class="row">
+                            					<!-- third count item -->
+                            					<div class="col-md-4 recruit_box_3 text-center animated fadeInLeft">
+                            							<img class="recruit_image" src="/images/Recruiting_tab/File.png">
+                            				              <p>2학기</p>
+                            							<h3>필수 활동기간</h3>
+                            					 </div>
+                            					<!-- end third count item -->
+                            					
+                            					<!-- fourth count item -->
+                            					<div class="col-md-4 recruit_box_4 text-center animated fadeInRight">
+                            							<img class="recruit_image" src="/images/Recruiting_tab/Search.png">
+                            							<p>면접</p>
+                            							<h3>모집방식</h3>
+                            					</div>
+                            					<!-- end fourth count item -->
+                            					
+                            				</div> 		<!-- end row -->
+                            			</div>   	<!-- end container -->
+                            		</section>   <!-- end section -->
+                              </div>
+                            </div>
+                            
+                            
+                            
+                            
+            <!--contact-->                
+                            <div class="c-tab">
+                              <div class="c-tab__content">
+                                <div class="col-sm-7">
+                                  <div class="location_map">
+                                      <img class="firstfloor" src="/images/Location_tab/1st.png">
+                                 <!--<div style="position:absolute; top:30px; left:70px"> <h4><b>Location</b></h4>--></div>
+                                  <div class="floor"><h3>1st Floor</h3></div>
+                                  <div class="animated slideInDown location_pointer"><img src="/images/Location_tab/pointer.png" /></div>
+                                  </div>
+                                </div>
+                           
+                                  <div class="contact-info">
+                                      <div class="contactin represent">
+                                        <h2><span>대표자</span></h2>
+                                        <p>대표자 : 전태훈 (글경 12)<br>
+                                        연락처 : 010-0000-0000</p>
+                                    </div>
+                                      
+                                      <div class="contactin represent">
+                                        <h2><span>연락처</span></span></h2>
+                                        <p>페이스북<a href="https://www.facebook.com/likelionskku/?fref=ts">
+                                        <img class="icon icons8-Facebook" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAABqElEQVRoQ2NkGOKAcYi7n2HUAwMdg6MxMOhjwDZgWwATw798BkZGB7o69v//A/8YmCYe3uC1AZ+9eJOQfcDW+QyMDAl0dTiaZf//MzQe2uDdgMsNOD0ADnnG/+sH0vEwu//+/+d4ZIPvAWxuwekBu8CtBxgZGOwHgwf+MzAcPLTeG2sSxukB+8Ct/weD42FuOLjeG6tbRz1Ar1gaNDHg4SjD4O4ozWCoI4zhd4egbTjDY1B4oKXCmMHGTBynIwe1B0AhX5GrhzfFDWoPTGi2YDDQFhq6HjiwzgvD8TUdZxmOnHpJVDkw4HkAmwfwJRl0X416gKh4xqNoSMYANkfj8uOXb38YfGJ2Da56gBQPXLj6jqGg9sTQ9cCaLQ8Ypsy7NnQ9sGDlbQYQxgVGS6ERWQohe3pIFqOjHkAKgdFMPJqJsTSnR1ujDAy45weoPS40WowO9MDWaAyQGgNDfnB3yA+vgyouu4AtCxgZGeMprcQo0U/2BAfMUpuAzQ5MjEwN9J4rAM0J/Pv/rwHXxAbMfaOzlJQkD2roHY0BaoQiJWaMxgAloUcNvQDVMwpAikLd1gAAAABJRU5ErkJggg==" width="40" height="40">
+                                        </a>
+                                        카카오톡<a href=#>
+                                          <img src="http://postfiles1.naver.net/20160520_128/gmlwh0716_14637447987960W4d2_PNG/%C0%CC%B8%A7_%BE%F8%C0%BD.png?type=w3" width="35" height="35">
+                                        </a>
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div> <!--contact end-->
+                                
+                                
+                                
+                                
+                              </div>
+                            </div>
+                            </div>
+                         </div>
+                      </main>
+                    </div>
+                  </div>
+            </div>
+        </div>    
+<!--여기까지 Taps-->
+    
+    
+    
+    <script src="/assets/jquery.js"></script>
+    <script src="/assets/bootstrap.min.js"></script>
+    <script src="/assets/jquery.isotope.min.js"></script>
+    <script src="/assets/jquery.prettyPhoto.js"></script>
+    <script src="/assets/main.js"></script>
+    <script src="/assets/common-scripts.js"></script> 
+    <script src="/assets/wow-alert.js"></script>
+
+
+
+
+<!--<div class="day_activity">-->
+                                <!--  <div class="time_activity_each">-->
+                                <!--    <ul class="time_activity_each_list">-->
+                                <!--      <li>6~9시</li>-->
+                                <!--      <li>단기PJT @국제관</li>-->
+                                <!--    </ul>-->
+                                <!--   </div>-->
+                                <!--   <div class="time_activity_each">-->
+                                <!--    <ul class="time_activity_each_list">-->
+                                <!--      <li>6~9시</li>-->
+                                <!--      <li>정기세션 @경영관</li>-->
+                                <!--    </ul>-->
+                                <!--   </div>-->
+                                <!--   <div class="time_activity_each">-->
+                                <!--    <ul class="time_activity_each_list">-->
+                                <!--      <li>3~6시</li>-->
+                                <!--      <li>TBD</li>-->
+                                <!--      <li>팀세션</li>-->
+                                <!--    </ul>-->
+                                <!--   </div>-->
+                                <!--  </div>-->
+                                <!--</div>-->
+                                
+                                
+                                
+                                
+                                <!--  <div class="day_activity_each">-->
+                                <!--    <img class="monday_img" src="http://postfiles7.naver.net/20160520_166/just_behind_146372260262697jN7_PNG/monday-calendar-page.png?type=w1"/>-->
+                                <!--  </div>-->
+                                <!--  <div class="day_activity_each">-->
+                                <!--    <img class="tuesday_img" src="http://postfiles2.naver.net/20160520_81/just_behind_146372260193882iSF_PNG/thursday-calendar-daily-page-interface-symbol.png?type=w1" />       -->
+                                <!--  </div>-->
+                                <!--  <div class="day_activity_each">-->
+                                <!--    <img class="wednsday_img" src="http://postfiles12.naver.net/20160520_107/just_behind_1463722602378BJEMM_PNG/wednesday-calendar-daily-page.png?type=w1" />-->
+                                <!--  </div>-->
+                                <!--  <div class="day_activity_each">  -->
+                                <!--    <img class="thursday_img" src="http://postfiles8.naver.net/20160520_39/just_behind_1463722602172f22eG_PNG/tuesday-daily-calendar-page.png?type=w1" />-->
+                                <!--  </div>-->
+                                <!--  <div class="day_activity_each">-->
+                                <!--    <img class="friday_img" src="http://postfiles6.naver.net/20160520_117/just_behind_1463722601128IGCaA_PNG/friday-daily-calendar-page.png?type=w1" />-->
+                                <!--  </div>-->
+                                <!--  <div class="day_activity_each">-->
+                                <!--    <img class="saturday_img" src="http://postfiles8.naver.net/20160520_231/just_behind_1463722601498RTR7k_PNG/saturday-calendar-daily-page-interface-symbol.png?type=w1" />-->
+                                <!--  </div>-->
+                                <!--  <div class="day_activity_each" hidden="true">  -->
+                                <!--    <img class="sunday_img" src="http://postfiles15.naver.net/20160520_110/just_behind_1463722601651NpWQI_PNG/sunday-daily-calendar-page.png?type=w1" />                        -->
+                                <!--  </div>-->
+                                <!--</div>-->
+        <!--시간-->             
+        <!--                        <div class="time_activity">-->
+        <!--                          <div class="time_activity_each">-->
+        <!--                            <ul class="time_activity_each_list">-->
+        <!--                              <li>6~9시</li>-->
+        <!--                              <li>단기PJT @국제관</li>-->
+        <!--                            </ul>-->
+        <!--                           </div>-->
+        <!--                           <div class="time_activity_each">-->
+        <!--                            <ul class="time_activity_each_list">-->
+        <!--                              <li>6~9시</li>-->
+        <!--                              <li>정기세션 @경영관</li>-->
+        <!--                            </ul>-->
+        <!--                           </div>-->
+        <!--                           <div class="time_activity_each">-->
+        <!--                            <ul class="time_activity_each_list">-->
+        <!--                              <li>3~6시</li>-->
+        <!--                              <li>TBD</li>-->
+        <!--                              <li>팀세션</li>-->
+        <!--                            </ul>-->
+        <!--                           </div>-->
+        <!--                          </div>-->
+        <!--                        </div>-->
+                                
+        <!--                        <div class="day_activity">-->
+        <!--                             <div class="when">-->
+        <!--                               <ul>-->
+        <!--                                  <li class="mon-off"></li>-->
+        <!--                                  <li class="tue-off"></li>-->
+        <!--                                  <li class="mon-on"></li>-->
+        <!--                                  <li class="mon-on"></li>-->
+        <!--                                  <li class="fri-on"></li>-->
+        <!--                                  <li class="mon-off"></li>-->
+        <!--                                  <li class="mon-off"></li>-->
+        <!--                            </div>-->
+        <!--                        </div>-->
+                                
+        <!--                        <div class="activity">-->
+        <!--                          <h2><span>연간 일정</span></h2>-->
+        <!--                          </div>  -->
+        <!-- 행사 -->          
+                                <!--<div class="event_activity">       -->
+                                  <!--<div id="container">-->
+                                      <!--<div id="arrowL">-->
+                                      <!--</div>-->
+                                      <!--<div id="arrowR">-->
+                                      <!--</div>-->
+                                      <!--<div id="list-container"> -->
+                                          <!--<div class='list'>-->
+        <!--                                      <div class='itembox'>-->
+        <!--                                        <div class='semester'>1학기 주요행사</div>-->
+        <!-- 1학기 타임라인 -->                 
+        <!--                                        <div class='event_timeline'>-->
+        <!--                                          <img class='event_timeline1' src="http://postfiles1.naver.net/20160525_96/just_behind_146415599760352kyj_PNG/event_timeline.png?type=w1">-->
+        <!--                                            <div class='event_timeline1_text'>-->
+        <!--                                              <ui>-->
+        <!--                                                <li>HTML에서</li>-->
+        <!--                                                <li>hidden="true" ==></li>-->
+        <!--                                              </ui> -->
+        <!--                                            </div>-->
+        <!--                                          <img class='event_timeline2' hidden="true" src="http://postfiles1.naver.net/20160525_96/just_behind_146415599760352kyj_PNG/event_timeline.png?type=w1">-->
+        <!--                                            <div class='event_timeline2_text' hidden="true">-->
+        <!--                                              <ui>-->
+        <!--                                                <li>aaaa</li>-->
+        <!--                                                <li></li>-->
+        <!--                                              </ui> -->
+        <!--                                            </div>-->
+        <!--                                          <img class='event_timeline3' src="http://postfiles1.naver.net/20160525_96/just_behind_146415599760352kyj_PNG/event_timeline.png?type=w1">-->
+        <!--                                            <div class='event_timeline3_text'>-->
+        <!--                                              <ui>-->
+        <!--                                                <li>아이디어톤@7월</li>-->
+        <!--                                                <li>헤카톤@8월</li>-->
+        <!--                                              </ui> -->
+        <!--                                            </div>-->
+        <!--                                        </div>-->
+        <!--                                        <img class='timeline' src="http://postfiles15.naver.net/20160524_62/just_behind_1464098375435morhR_PNG/timeline.png?type=w1" >-->
+        <!--                                      </div>-->
+        <!--                                      <div class='itembox'>-->
+        <!--                                        <div class='semester'>2학기 주요행사</div>-->
+        <!-- 2학기 타임라인 -->                  
+        <!--                                        <div class='event_timeline'>-->
+        <!--                                          <img class='event_timeline1' src="http://postfiles1.naver.net/20160525_96/just_behind_146415599760352kyj_PNG/event_timeline.png?type=w1">-->
+        <!--                                            <div class='event_timeline1_text'>-->
+        <!--                                              <ui>-->
+        <!--                                                <li>총회@9월</li>-->
+        <!--                                                <li></li>-->
+        <!--                                              </ui> -->
+        <!--                                            </div>-->
+        <!--                                          <img class='event_timeline2' src="http://postfiles1.naver.net/20160525_96/just_behind_146415599760352kyj_PNG/event_timeline.png?type=w1">-->
+        <!--                                            <div class='event_timeline2_text'>-->
+        <!--                                              <ui>-->
+        <!--                                                <li>총엠티@11월</li>-->
+        <!--                                                <li></li>-->
+        <!--                                              </ui> -->
+        <!--                                            </div>-->
+        <!--                                          <img class='event_timeline3' src="http://postfiles1.naver.net/20160525_96/just_behind_146415599760352kyj_PNG/event_timeline.png?type=w1">-->
+        <!--                                            <div class='event_timeline3_text'>-->
+        <!--                                              <ui>-->
+        <!--                                                <li>뭐라도한다@방학내내</li>-->
+        <!--                                                <li></li>-->
+        <!--                                              </ui> -->
+        <!--                                            </div>-->
+        <!--                                        </div>-->
+        <!--                                        <img class='timeline' src="http://postfiles2.naver.net/20160524_129/just_behind_14640983757083PLWO_PNG/timeline2.png?type=w1" >-->
+        <!--                                      </div>-->
+        <!--                                  </div>-->
+        <!--커리큘럼-->
+                                        <!--<div class='curriculum'>-->
+                                        <!--  <ul class='list_curriculum'>-->
+                                        <!--    <li>첫 학기에는 웹개발 언어로 루비 온 레일즈를 배우면서 단기프로젝트를 진행, 동시에 헤카톤을 준비합니다. </li>-->
+                                        <!--    <li>방학에는 집중적으로 헤카톤을 진행하며, 기타 외부 교육단체 및 학교와 교류, 외주작업 진행, 심화학습 등이 가능합니다.</li>-->
+                                        <!--  </ul>-->
+                                        <!--</div>-->
+        
+                                        <!--</div>-->
+                                        
+                                        
+                                      <!--</div>-->
+                                  <!--</div>-->

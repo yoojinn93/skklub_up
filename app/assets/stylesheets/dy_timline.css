@@ -1,0 +1,153 @@
+#container{
+width:100%;
+    height:300px;
+}
+
+#list-container {
+overflow:hidden;    
+width: calc(100% - 44px);  
+height: 300px;
+float:left;    
+
+}
+
+.list{
+    background:white;
+    min-width:200%;
+    float:left;
+}
+
+
+#arrowR{
+background-color: #da7265;
+    width:22px;
+    height:300px;
+    float:right;
+    cursor:pointer;
+}
+
+
+#arrowL{
+background-color: #da7265;
+    width:22px;
+    height:300px;
+    float:left;
+    cursor:pointer;
+}
+
+.itembox{
+    background:white;
+width:50%;
+    height:300px;
+    float:left;
+    position:relative;
+    
+}
+.timeline{
+vertical-align: middle;
+position: relative;
+margin-top: 5%;
+
+}
+
+.semester {
+  position: absolute;
+  z-index: 2;
+  margin-left: 8px;
+  font-weight: bold !important;
+  color: #da7265;
+  line-height: 1.5;
+  font: 16px sans-serif;
+
+}
+
+.event_timeline {
+  width: 100%;
+  position: absolute;
+  display: table-cell;
+  z-index: 2;
+  text-align: center;
+  margin-top: 35px;
+}
+
+.event_timeline1 {
+    width: 170px;
+    height: 80px;
+    display: inline-block;
+    margin-left: -280px;
+    position: absolute;
+
+}
+.event_timeline1_text {
+    width: 170px;
+    height: 80px;
+    display: inline-block;
+    margin-left: -280px;
+    position: absolute;
+    margin-top: 5px;
+    line-height: 1.5;
+    font: 16px sans-serif;
+    color: #da7265;
+    list-style: none;
+}
+.event_timeline2 {
+    width: 170px;
+    height: 80px;
+    display: inline-block;
+    margin-left: -85px;
+    position: absolute;
+    margin-top: -10px;
+}
+.event_timeline2_text {
+    width: 170px;
+    height: 80px;
+    display: inline-block;
+    margin-left: -85px;
+    position: absolute;
+    margin-top: -5px;
+    line-height: 1.5;
+    font: 16px sans-serif;
+    color: #da7265;
+    list-style: none;
+}
+.event_timeline3 {
+    width: 170px;
+    height: 80px;
+    display: inline-block;
+    margin-left: 110px;
+    position: absolute;
+}
+.event_timeline3_text {
+    width: 170px;
+    height: 80px;
+    display: inline-block;
+    margin-left: 110px;
+    position: absolute;
+    margin-top: 5px;
+    line-height: 1.5;
+    font: 16px sans-serif;
+    color: #da7265;
+    list-style: none;
+}
+
+.curriculum {
+    border-radius: 8%;
+    border: dashed 5px;
+    border-color: #da7265;
+    text-align: left;
+    width: 580px;
+    height: 120px;
+    position: absolute;
+    margin-top: 165px;
+    margin-left: 10px;
+}
+.list_curriculum {
+    line-height: 1.5;
+    font: 16px sans-serif;
+    color: #da7265;
+    list-style: none;
+    margin-left: 10px;
+    padding-top: 5px;
+    margin-right: 10px;
+
+} 

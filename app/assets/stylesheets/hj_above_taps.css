@@ -1,0 +1,221 @@
+body {
+background: #eee;
+font-family: 'Noto Sans Korean', sans-serif;
+font-size: 14px;
+line-height: 19px;
+color: #000000;
+text-align: center;
+}
+.wrapper {
+width: 980px;
+background: #ffffff;
+text-align: left;
+margin: 20px auto;
+padding: 40px 30px;
+-moz-border-radius: 4px;
+-khtml-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+}
+.subtitle {
+color: #ababab;
+font-size: 9pt;
+padding-top: 10px;
+text-align: center;
+}
+a {
+color: #0169b8;
+text-decoration: none;
+}
+a:hover {
+color: #0169b8;
+text-decoration: underline;
+}
+p {
+margin: 0 0 30px 0;
+}
+.main-separater {
+border-bottom: 1px solid #808080;
+height: 1px;
+line-height: 1px;
+margin: 50px 0px 50px 0px;
+}
+.separater {
+border-bottom: 1px dotted #808080;
+height: 1px;
+line-height: 1px;
+margin: 40px 0px;
+}
+h1 {
+text-align: center;
+margin: 0;
+padding: 0 0 5px 0;
+}
+h3 {
+font-family: 'Noto Sans Korean', sans-serif;
+color: #000000;
+font-size: 18pt;
+margin: 0 0 40px 0;
+padding: 0;
+}
+h4 {
+font-size: 14pt;
+color: #3073c7;
+padding: 0;
+margin: 0 0 10px 0;
+}
+h5 {
+font-size: 12pt;
+color: #000000;
+padding: 0;
+margin: 0;
+}
+h6 {
+font-size: 11pt;
+color: #000000;
+padding: 0;
+margin: 0;
+}
+table {
+margin: 20px 0 0 0;
+font-size: 10pt;
+}
+td {
+padding: 5px 0;
+border-bottom: 1px solid #c0c0c0;
+}
+.files {
+width: 200px;
+}
+.file_desc {
+font-size: 8pt;
+}
+
+/*
+pre {
+margin: 20px 0 20px 0;
+padding: 20px;
+width: 900px;
+overflow: auto;
+background: #f6e8b1;
+-moz-border-radius: 4px;
+-khtml-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+font-family: "Courier New";
+}
+*/
+pre.lines, code.lines{
+background:url("assets/images/code.png") repeat scroll 0 0 transparent
+}
+pre, code { border: 1px dashed #bfbfbf;font-family: 'Noto Sans Korean', sans-serif; line-height: 20px;padding: 0 5px;}
+code {
+padding: 2px 4px;
+background: #f6e8b1;
+-moz-border-radius: 4px;
+-khtml-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+font-family: 'Noto Sans Korean', sans-serif;
+}
+img {
+/*border: 1px solid #000000;*/
+}
+.notice {
+margin: 0 0 30px 0;
+border: 1px solid #ff0000;
+background: #f2dfdf;
+padding: 10px 20px;
+line-height: 19px;
+color: #8a1f11;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+border: 1px solid #FBC2C4;
+}
+.notice a {
+text-decoration: underline;
+color: #8a1f11;
+}
+.notice a:hover {
+text-decoration: none;
+}
+.notice h4 {
+color: #8a1f11;
+padding-bottom: 5px;
+}
+.notice h5 {
+color: #8a1f11;
+padding-bottom: 5px;
+}
+.new {
+color: #e58100;
+font-weight: bold;
+}
+.removed {
+color: #73a900;
+font-weight: bold;
+}
+.moved {
+color: #41abef;
+font-weight: bold;
+}
+ol.alpha {
+    list-style: upper-roman outside none;
+}
+table{
+    border-collapse: collapse;
+    border-left: 1px solid #eaeaea;
+    border-right: 1px solid #eaeaea;
+    line-height: 25px;
+}
+table th {
+    padding: 0 0.5em;
+    text-align: left;
+}
+table td {
+    border-top: 1px solid #eaeaea;
+	border-bottom: 1px solid #eaeaea;
+    padding: 0 0.5em;
+}
+table td + td, thead th {
+    border-left: 1px solid #eaeaea;
+    
+}
+thead{
+	 border: 1px solid #eaeaea;
+	 
+}
+
+table {margin-bottom:1.4em;width:100%;}
+th {font-weight:bold;}
+thead th {background:#c3d9ff;}
+th, td, caption {padding:4px 10px 4px 5px;}
+tr.even td {background:#e5ecf9;}
+
+/*3,4번 탭 css*/
+.orange {
+    width:250px; height:220px; display:block; border: 2px solid #da7266;
+}
+.mango {
+    width:250px; height:220px; margin-left:30px; border: 2px solid #da7266;
+}
+
+.col-sm-5 p {text-align:center;}
+
+.col-sm-7 h4 {color:#da7266;}
+.col-sm-5 h4 {color:#da7266;}
+
+.recruit_box_1 {text-align:center; margin-top:2px; margin-bottom:50px; font-size:70px; font-weight: 400; color:#da7266}
+.recruit_box_1 p {text-align:center;}
+.recruit_box_2 {text-align:center; margin-top:2px; margin-bottom:50px; color:#da7266; font-size:70px; font-weight: 400;}
+.recruit_box_2 p {text-align:center;}
+.recruit_box_3 {text-align:center; margin-top:2px; margin-bottom:10px; color:#da7266; font-size:70px; font-weight: 400;}
+.recruit_box_3 p {text-align:center;}
+.recruit_box_4 {text-align:center; margin-top:2px; margin-bottom:10px; color:#da7266; font-size:70px; font-weight: 400;}
+.recruit_box_4 p {text-align:center;}
+
+.location_map {position: relative;}
+.location_pointer {position:absolute; top:178px; left:61px; animation-duration:0.3s}
+.floor {position:absolute; top:60px; left:73px}
+.contactin p {text-align:center;}
