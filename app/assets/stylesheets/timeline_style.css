@@ -306,7 +306,7 @@ Main Components
   display: block;
   font-style: italic;
   margin: 10px auto
-  font-weight: 300;
+  font-weight:300;
   margin-top: 4px;
 }
 .cd-horizontal-timeline .events-content em::before {
@@ -315,11 +315,11 @@ Main Components
 .cd-horizontal-timeline .events-content p {
   font-size: 16px;
   color: #726c6c;
-  font-weight: 300;
+  font-weight:300;
 }
 .cd-horizontal-timeline .events-content em, .cd-horizontal-timeline .events-content p {
   line-height: 1.6;
-  font-weight: 300;
+  font-weight:300;
 }
 @media only screen and (min-width: 768px) {
   .cd-horizontal-timeline .events-content h2 {
@@ -328,7 +328,7 @@ Main Components
   .cd-horizontal-timeline .events-content em {
     font-size: 2rem;
     color: #726c6c;
-    font-weight: 300;
+    font-weight:300;
   }
   .cd-horizontal-timeline .events-content p {
     font-size: 16px;

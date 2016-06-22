@@ -15,11 +15,11 @@ h4,
 h5,
 h6 {
   color: #777;
-  font-weight: 300;
+  font-weight:300;
 }
 
 a {
-  font-weight: 300;
+  font-weight:300;
   color: #52b6ec;
   -webkit-transition: 300ms;
   -moz-transition: 300ms;
@@ -29,13 +29,13 @@ a {
 
 .maintab{
   font-size: 15px;
-  font-weight: 300;
+  font-weight:300;
 }
 
 /**footer**/
 .gofacebook{
   color:#fff;
-  font-weight: 300;
+  font-weight:300;
   margin-left: -345px;
 }
 
@@ -48,7 +48,7 @@ a {
 
 
 .btn {
-  font-weight: 300;
+  font-weight:300;
   border: 0;
 }
 
@@ -405,7 +405,7 @@ textarea#message {
 .foot_contact{
   color: #fff;
   text-align: right;
-  font-weight: 300;
+  font-weight:300;
 }
 
 
@@ -705,7 +705,7 @@ background: #00aaff;
     outline:none;
     font-family:'Noto Sans Korean', sans-serif;
     font-size: 16px;
-    font-weight: 300;
+    font-weight:300;
     line-height: 20px;
     color:#FFF;
     transform: translate(0, 60px);
