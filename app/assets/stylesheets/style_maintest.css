@@ -551,7 +551,7 @@ a.btn-purchase {
     text-transform: uppercase;
     border-radius: 4px;
     -webkit-border-radius: 4px;
-    -moz-border-radius: 4px padding; 20px 40px;
+    -moz-border-radius: 4px padding 20px 40px;
     margin-top: 30px;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
